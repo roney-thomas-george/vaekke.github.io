@@ -338,6 +338,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #fff;
   overflow-y: auto;
   transition: 0.3s;
+  height: 375px;
 }
 
 .navbar-mobile a {
