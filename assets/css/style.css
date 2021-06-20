@@ -413,7 +413,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 {
   margin: 0;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 56px;
   color: #141d2b;
@@ -424,7 +424,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero h2 {
   color: #466393;
   margin: 15px 0 0 0;
-  font-size: 20px;
+  font-size: 18px;
   color: #2d405f;
 }
 
@@ -453,12 +453,12 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 992px) {
   #hero h1 {
-    font-size: 36px;
+    font-size: 30px;
     line-height: 42px;
     width: 100%;
   }
   #hero h2 {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 24px;
   }
   #hero .hero-img {
