@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #6272f9;
+  background: #cf07b8;
   color: #fff;
 }
 
@@ -191,7 +191,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #3b4ef8;
+  color: white;
+  text-decoration: underline;
 }
 
 .navbar .getstarted {
@@ -1008,11 +1009,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #3b4ef8;
+  border: 1px solid #7d016e;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #3b4ef8;
+  background-color: #7d016e;
 }
 
 /*--------------------------------------------------------------
