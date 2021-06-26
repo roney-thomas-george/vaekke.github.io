@@ -300,11 +300,18 @@ h1, h2, h3, h4, h5, h6 {
   .mediaicons-lg{
     display: none;
   }
+  .loadingimage{
+    max-width: 50%;
+  }
 }
 @media (min-width: 991px) {
   .mediaicons-sm{
     display: none;
   }
+  .loadingimage{
+    max-width: 25%;
+  }
+ 
 }
 
 
@@ -1599,4 +1606,18 @@ section {
     max-height: 69px;
     padding-left: 36px;
   }
+}
+.callus{
+      background: #ffffff;
+      padding: 3px 0px;
+      font-weight: bold;
+      font-size: 16px;
+      color: #131212;
+      border-radius: 31px;
+      border-style: solid;
+      border-color: #191818;
+      position: absolute;
+      top: 88px;
+      right: 27px;
+      border-width: 2px;
 }
