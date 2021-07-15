@@ -1608,7 +1608,7 @@ section {
   }
 }
 .callus{
-      background: #ffffff;
+      /* background: #ffffff;
       padding: 3px 0px;
       font-weight: bold;
       font-size: 16px;
@@ -1619,5 +1619,90 @@ section {
       position: absolute;
       top: 88px;
       right: 27px;
+      border-width: 2px; */
+
+
+      width: 120px;
+      background: #ffffff;
+      padding: 3px 0px;
+      font-weight: bold;
+      font-size: 15px;
+      font-family: sans-serif;
+      color: #131212;
+      border-radius: 31px;
+      /* border-style: solid; */
+      border: .2px solid #7d016e;
+      position: absolute;
+      margin-top: -193px;
+      right: 50px;
       border-width: 2px;
+      cursor: pointer!important;
+      z-index: 1;
 }
+
+@media only screen and (max-width: 600px) {
+
+  .callus {
+    width: 92px!important;
+    background: #ffffff;
+    padding: 3px 0px;
+    font-weight: bold;
+    font-size: 10px;
+    font-family: sans-serif;
+    color: #131212;
+    border-radius: 30px;
+    /* border-style: solid; */
+    border: .2px solid #7d016e;
+    position: absolute;
+    margin-top: -193px!important;
+    right: 6px!important;
+    border-width: 2px;
+    cursor: pointer!important;
+    z-index: 1;
+  }
+}
+@media only screen and (max-width: 768px) {
+
+  .callus {
+    width: 92px!important;
+    background: #ffffff;
+    padding: 3px 0px;
+    font-weight: bold;
+    font-size: 10px;
+    font-family: sans-serif;
+    color: #131212;
+    border-radius: 30px;
+    /* border-style: solid; */
+    border: .2px solid #7d016e;
+    position: absolute;
+    margin-top: -193px!important;
+    right: 6px!important;
+    border-width: 2px;
+    cursor: pointer!important;
+    z-index: 1;
+  }
+
+  .labelcontent {
+    z-index: 1;
+    color: #8e4040;
+    width: 148px;
+    margin-top: -304px!important;
+    position: absolute;
+    margin-right: 200px!important;
+    font-size: 10px;
+  }
+}
+
+
+.labelcontent
+{
+    z-index: 1;
+    color:#7d016e;
+    width: 159px;
+    margin-top: -221px;
+    position: absolute;
+    margin-right: 537px;
+    font-size: 10px;
+}
+
+
